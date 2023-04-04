@@ -1,0 +1,20 @@
+.dropdown-title-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 0;
+    cursor: pointer;
+    width: fit-content;
+    transition: all 0.2s;
+}
+
+.dropdown-title-container:hover {
+    opacity: 0.7;
+}
+
+.dropdown-title-container p {
+    margin-right: 10px;
+}
+
+.dropdown-title-container img {
+    transition: rotate 0.3s;
+}
