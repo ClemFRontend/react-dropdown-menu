@@ -18,3 +18,7 @@
 .dropdown-title-container img {
     transition: rotate 0.3s;
 }
+
+.dropdown-items {
+    margin-left: 24px;
+}
