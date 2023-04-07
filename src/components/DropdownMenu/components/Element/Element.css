@@ -1,0 +1,11 @@
+.element {
+    display: flex;
+    flex-direction: row;
+}
+
+.element-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
