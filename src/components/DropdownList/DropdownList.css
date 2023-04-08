@@ -1,3 +1,5 @@
+/* Dropdown menu */
+
 /* .dropdown-title-container {
     display: flex;
     align-items: center;
@@ -34,12 +36,29 @@
     padding: 0 0 5px 0;
 }
 
-/* Remove Marker */
-ul {
-    list-style-type: none;
+ul { 
+    list-style-type: none; /* Remove marker */
     padding: 0;
 }
 
 .dropdown-menu ul li {
     padding: 5px 0 5px 10px;
 }
+
+/*  */
+
+/* Element */
+
+.element {
+    display: flex;
+    flex-direction: row;
+}
+
+.element-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/*  */
