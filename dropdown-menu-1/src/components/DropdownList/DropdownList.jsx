@@ -12,7 +12,7 @@ import ICON_ARROW_DOWN from '../../assets/icon-arrow-down.svg'
  * @returns {HTMLElement}
  */
 export function DropdownList({children}) {
-  return <ul>{children}</ul>
+  return <ul className='dropdown-list'>{children}</ul>
 }
 
 /**
@@ -95,15 +95,23 @@ export function DropdownMenu({title, icon, children}) {
  * @param {String} children
  * @returns 
  */
-export function Element({icon, children}) {
-  return (
-      <li className='element'>
-          {icon !== undefined && 
-              <div className='element-icon'>
-                  {icon}
-              </div>
-          }
-          <p>{children}</p>
-      </li>
-  )
+export function Element({icon, hideDot=false, onClick, children}) {
+
+    // let isDot = ""
+    // if (icon === undefined && hideDot === false) {
+    //     console.log("hello")
+    //     isDot = "dot"
+    // }
+
+    return (
+        // <li className={`element ${isDot}`} onClick={onClick}>
+        <li className="element" onClick={onClick}>
+            {icon !== undefined && 
+                <div className='element-icon'>
+                    {icon}
+                </div>
+            }
+            <p>{children}</p>
+        </li>
+    )
 }
