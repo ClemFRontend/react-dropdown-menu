@@ -6,7 +6,7 @@ This is a list of dropdown menus.
 > Example :
 > ```jsx
 > // Do like this
-><Element onClick={() => useNavigate('/home')} icon={<img src={ICON_PLANNING} alt='planning icon' />}>Planning</Element>
+><Element onClick={() => navigate('/home')} icon={<img src={ICON_PLANNING} alt='planning icon' />}>Planning</Element>
 >
 > // Don't do
 ><Element icon={<img src={ICON_PLANNING} alt='planning icon' />}><a href='home'>Planning</a></Element>
