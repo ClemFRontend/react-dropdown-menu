@@ -19,9 +19,9 @@ function App() {
             <Element>Item</Element>
           </DropdownMenu>
         </DropdownMenu>
-        <DropdownMenu title="Ingrédiants">
-          <Element>Tomates</Element>
-          <Element>Olives</Element>
+        <DropdownMenu title="Other">
+          <Element>Item</Element>
+          <Element>Item</Element>
         </DropdownMenu>
         <Element>Item</Element>
         <Element>Item</Element>
